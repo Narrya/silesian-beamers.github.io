@@ -1,0 +1,174 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #6A628E;
+	color: white;
+	text-align: center;
+
+	font-family: 'Lato';
+	font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lora';
+}
+
+h1 {
+	font-size: 3.2em;
+}
+
+h2 {
+	font-size: 2.8em;
+}
+
+h3 {
+	font-size: 2.4em;
+}
+
+h4 {
+	font-size: 2.0em;
+}
+
+h5 {
+	font-size: 1.8em;
+}
+
+h6 {
+	font-size: 1.6em;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+	color: white;
+	font-weight: normal;
+}
+
+p {
+	text-align: justify;
+	font-size: 1.4em;
+	padding: 0 1em;
+}
+
+.centered-content {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.full-width-content {
+	width: 100%;
+	padding: 0 10px;
+}
+
+.place-name {
+	margin-bottom: 0;
+}
+
+.place-address {
+	margin-top: 0;
+}
+
+.logos {
+	background-color: white;
+	margin: 1.5em 0 0 0;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+@media (max-width: 960px) {
+  	.logos {
+   		flex-flow: column;
+  	}
+}
+
+.logos img {
+	max-width: 200px;
+	margin: 5px;
+}
+
+main {
+	color: #333333;
+	min-height: 200px;
+	background-color: #8DDA8C;
+
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
+
+main h2 {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+main div {
+	font-size: 1.2em;
+}
+
+main a,
+main a:visited,
+main a:hover,
+main a:active {
+	color: #333333;
+	font-weight: bold;
+}
+
+.subscription {
+	margin-top: 1em;
+}
+
+iframe {
+	width: 960px !important;
+	height: 300px !important;
+	min-height: auto !important;
+}
+
+@media (max-width: 960px) {
+  	iframe {
+    	width: 500px !important;
+    	height: 280px !important;
+  	}  
+}
+
+@media (max-width: 500px) {
+  	iframe {
+    	width: 300px !important;
+    	height: 250px !important;
+	}  
+}
+
+@media (max-width: 300px) {
+  	iframe {
+    	width: 95% !important;
+      	height: 250px !important;
+    }  
+}
+
+footer {
+	min-height: 100px;
+	background-color: #494073;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer div {
+	font-size: 1.2em;
+}
+
+.important {
+	text-transform: uppercase;
+}
